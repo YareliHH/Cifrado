@@ -1,0 +1,74 @@
+/* Estilo general para el cuadro */
+.cuadro {
+    border: 2px solid #007BFF; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px; /* Aumentar el espaciado interno */
+    margin: 20px auto; /* Margen superior e inferior */
+    background-color: #ffffff; /* Color de fondo del recuadro */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; /* Ancho máximo del cuadro */
+    text-align: center; /* Centrar el texto dentro del cuadro */
+}
+
+/* Estilo para el párrafo */
+.cuadro p {
+    margin: 20px 0; /* Margen superior e inferior para el párrafo */
+}
+
+/* Estilo para la lista */
+.cuadro ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el espaciado interno */
+}
+
+/* Estilo para los elementos de la lista */
+.cuadro li {
+    text-align: center; /* Centrar el texto de cada elemento de la lista */
+    margin: 10px 0; /* Margen superior e inferior para cada elemento de la lista */
+}
+/* Estilo general para la tabla */
+table {
+    width: 100%; /* Ancho de la tabla */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    border: 1px solid #007BFF; /* Borde de las celdas */
+    padding: 12px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+    background-color: #007BFF; /* Color de fondo de los encabezados */
+    color: white; /* Color del texto en los encabezados */
+    font-weight: bold; /* Negrita en los encabezados */
+}
+
+/* Estilo para las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+    background-color: #e7f1ff; /* Color de fondo al pasar el cursor sobre la fila */
+}
+
+/* Estilo para las celdas de la primera columna */
+td:first-child {
+    font-weight: bold; /* Negrita para la primera columna */
+}
+
+/* Estilo adicional para la tabla en pantallas pequeñas */
+@media (max-width: 600px) {
+    table {
+        width: 100%; /* Mantener el ancho en dispositivos pequeños */
+    }
+
+    th, td {
+        padding: 8px; /* Ajustar el espaciado interno en dispositivos pequeños */
+    }
+}
+

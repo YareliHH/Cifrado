@@ -1,0 +1,100 @@
+/* Estilo para centrar el contenido en la página */
+.cuadro-cesar {
+    border: 2px solid #007BFF; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Margen superior e inferior */
+    background-color: #ffffff; /* Color de fondo del recuadro */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    width: 100%; /* Ancho del recuadro más flexible */
+    max-width: 400px; /* Ancho máximo del recuadro */
+}
+
+/* Estilo para el encabezado */
+h1 {
+    text-align: center; /* Centrar el título */
+    color: #051a31; /* Color del texto del título */
+    font-size: 2em; /* Tamaño de fuente más grande */
+    margin-bottom: px; /* Margen inferior */
+}
+
+/* Estilo para los inputs */
+input {
+    display: block; /* Hacer que los inputs ocupen una línea completa */
+    margin: 10px auto; /* Margen superior e inferior */
+    padding: 5px; /* Espaciado interno más cómodo */
+    width: 70%; /* Ancho del input */
+    border: 1px solid #ccc; /* Borde del input */
+    max-width: 400px; /* Limitar el ancho */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: border-color 0.3s; /* Transición suave del color del borde */
+    font-size: 1em; /* Tamaño de fuente uniforme */
+}
+
+input:focus {
+    border-color: #007BFF; /* Color del borde al hacer foco */
+    outline: none; /* Sin contorno por defecto */
+}
+
+/* Estilo para los botones */
+button {
+    padding: 12px 25px; /* Más espaciado en los botones */
+    margin: 10px; /* Separación entre botones */
+    background-color: #007bff; /* Azul por defecto */
+    color: white; /* Texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: background-color 0.3s, transform 0.3s; /* Suave transición */
+    font-size: 1em; /* Tamaño de fuente uniforme */
+    display: inline-block; /* Botones en línea */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilo para los botones juntos */
+
+.boton-container {
+    display: flex;
+    justify-content: center; /* Centrar los botones */
+    gap: px; /* Espacio pequeño entre los botones */
+    margin-top: 15px; /* Margen superior */
+}
+
+
+
+/* Estilo para el resultado y el botón de copiar */
+.resultado-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.resultado {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #e7f3ff;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+/* Estilo para la guía */
+.guia-recuadro {
+    border: 1px solid #007BFF;
+    padding: 15px;
+    background-color: #e7f1ff;
+    margin-top: 15px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.guia-recuadro h2 {
+    margin-top: 0;
+    color: #007BFF;
+    font-size: 1.5em; /* Tamaño de fuente más grande para el subtítulo */
+}
+
+

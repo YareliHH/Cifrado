@@ -1,0 +1,94 @@
+/* Estilos para el cuadro del componente Escítala */
+.cuadro-escitala {
+    border: 2px solid #007BFF; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Margen superior e inferior */
+    background-color: #ffffff; /* Color de fondo del recuadro */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    width: 100%; /* Ancho del recuadro más flexible */
+    max-width: 400px; /* Ancho máximo del recuadro */
+}
+
+/* Estilo del título */
+.cuadro-escitala h1 {
+   text-align: center; /* Centrar el título */
+    color: #051a31; /* Color del texto del título */
+    font-size: 2em; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo de los inputs */
+.cuadro-escitala input {
+    display: block; /* Mantiene los inputs en bloque */
+    margin: 10px auto; /* Más espacio entre los inputs */
+    padding: 5px; /* Espaciado interno */
+    width: 70%; /* Ocupa el ancho disponible */
+    max-width: 400px; /* Limitar el ancho */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    font-size: 1em; /* Tamaño de fuente */
+    transition: border-color 0.3s; /* Transición suave */
+}
+
+.cuadro-escitala input:focus {
+    border-color: #007bff; /* Borde azul al enfocar */
+    outline: none; /* Sin contorno por defecto */
+}
+
+/* Estilo de los botones */
+.cuadro-escitala button {
+    padding: 12px 25px; /* Más espaciado en los botones */
+    margin: 10px; /* Separación entre botones */
+    background-color: #007bff; /* Azul por defecto */
+    color: white; /* Texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: background-color 0.3s, transform 0.3s; /* Suave transición */
+    font-size: 1em; /* Tamaño de fuente uniforme */
+    display: inline-block; /* Botones en línea */
+}
+
+.cuadro-escitala button:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+}
+
+/* Estilo para el resultado */
+.resultado {
+    margin-top: 20px; /* Espacio superior */
+    font-size: 1.2em; /* Tamaño del texto */
+    padding: 15px; /* Espaciado interno */
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f8f9fa; /* Fondo claro */
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de los botones agrupados */
+.botones-cifrado {
+    display: flex;
+    gap: 10px; /* Espaciado entre botones */
+    justify-content: center; /* Centrar los botones */
+    margin-top: 15px; /* Más margen superior */
+}
+
+/* Estilo de la tabla más pequeña */
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    font-size: 0.7em;
+}
+
+td {
+    border: 1px solid #007bff;
+    padding: 3px;
+    text-align: center;
+    background-color: #f1f9ff;
+    border-radius: 2px;
+}
+
+td:first-child {
+    background-color: #e0f3ff;
+}
